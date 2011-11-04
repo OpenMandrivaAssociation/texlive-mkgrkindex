@@ -1,3 +1,9 @@
+# revision 18835
+# category Package
+# catalog-ctan /language/greek/mkgrkindex
+# catalog-date 2009-07-22 21:50:16 +0200
+# catalog-license other-free
+# catalog-version 2.0
 Name:		texlive-mkgrkindex
 Version:	2.0
 Release:	1
@@ -45,6 +51,7 @@ according to the rules of the Greek alphabet.
 %{_texmfdistdir}/scripts/mkgrkindex/mkgrkindex
 %doc %{_texmfdistdir}/doc/support/mkgrkindex/mkgrkindex.nw
 %doc %{_texmfdistdir}/doc/support/mkgrkindex/mkgrkindex.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
