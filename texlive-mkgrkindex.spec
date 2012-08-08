@@ -1,12 +1,12 @@
-# revision 18835
+# revision 26313
 # category Package
 # catalog-ctan /language/greek/mkgrkindex
-# catalog-date 2009-07-22 21:50:16 +0200
+# catalog-date 2010-10-24 16:36:36 +0200
 # catalog-license other-free
 # catalog-version 2.0
 Name:		texlive-mkgrkindex
 Version:	2.0
-Release:	2
+Release:	3
 Summary:	Makeindex working with Greek
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/greek/mkgrkindex
