@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-mkgrkindex
 Version:	2.0
-Release:	10
+Release:	11
 Summary:	Makeindex working with Greek
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/greek/mkgrkindex
