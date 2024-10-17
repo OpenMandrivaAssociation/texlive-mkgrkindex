@@ -3,7 +3,7 @@ Version:	26313
 Release:	2
 Summary:	Makeindex working with Greek
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/greek/mkgrkindex
+URL:		https://www.ctan.org/tex-archive/language/greek/mkgrkindex
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mkgrkindex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mkgrkindex.doc.r%{version}.tar.xz
