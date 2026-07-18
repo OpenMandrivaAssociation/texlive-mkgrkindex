@@ -1,5 +1,6 @@
 %global tl_name mkgrkindex
 %global tl_revision 26313
+%global tl_bin_links mkgrkindex:%{_texmfdistdir}/scripts/mkgrkindex/mkgrkindex
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(mkgrkindex.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 Makeindex is resolutely stuck with Latin-based alphabets, so will not
